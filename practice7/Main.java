@@ -17,8 +17,18 @@ public class Main {
     yuusya.sit(10);
     //逃げろ
     yuusya.run();
-    //お化けキノコよ、この仮想世界に生まれよ！
-    //Matango monster = new Matango();
+    //お化けキノコよ、この仮想世界に生まれよ！(マタンゴを2匹召喚)
+    Matango m1 = new Matango();
+    m1.hp = 50;
+    m1.suffix = 'A';
+    Matango m2 = new Matango();
+    m2.hp = 48;
+    m2.suffix = 'B';
+    //冒険の始まり
+    yuusya.slip();
+    m1.run();
+    m2.run();
+    yuusya.run();
     //勇者よ、戦え！
     //お化けキノコよ、逃げろ
   }
