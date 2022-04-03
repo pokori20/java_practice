@@ -1,6 +1,6 @@
 Main クラス{mainメソッド}
-
-Heroクラス
+  
+Heroクラス  *Heroクラスを定義することで、intやstringのように型として使用できる　例：Hero h;
 属性{HP , 名前}
 操作{戦う , 眠るetc}
 
