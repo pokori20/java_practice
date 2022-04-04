@@ -29,7 +29,12 @@ public class Main {
     m1.run();
     m2.run();
     yuusya.run();
-    //勇者よ、戦え！
-    //お化けキノコよ、逃げろ
+    //聖職者を召喚
+    Cleric c = new Cleric();
+    c.name = "サモナー";
+    c.hp = 25;
+    c.mp = 10;
+    System.out.println("聖職者" + c.name + "を生み出しました");
+    c.selfAid();
   }
 }
