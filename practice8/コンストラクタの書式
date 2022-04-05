@@ -1,0 +1,12 @@
+public class クラス名　{
+  クラス名() {
+  //ここに自動実行される処理を記述する
+  }
+}
+
+public class Hero {
+  Hero(String name) { //コンストラクタで引数を追加情報として受け取る
+  this.hp = 100;
+  this.name = name; //引数の値でnameフィールドを初期化
+  }
+}
