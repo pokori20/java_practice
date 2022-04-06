@@ -2,6 +2,10 @@ public class Hero {
   String name;
   int hp;
   static int money; //静的フィールド(static field)
+  //staticを付けたメソッドの例 heroのmoneyをランダムで作成
+  static void setRandomMoney() {
+    Hero.moeny = (int) (Math.random() * 1000); //0以上9以下の乱数を生成
+  }
   //通常、フィールドが格納される箱は個々のインスタンス(勇者)ごとに用意されますが、静的フィールドの箱はインスタンスではなく、
   //クラスに対して1つだけ用意されます。個々のmoenyではなく勇者全体のmoneyになる静的フィールドを読み書きする場合は Hero.money　のように書く。
   Sword sword; //Sword型 勇者の装備している剣の情報
