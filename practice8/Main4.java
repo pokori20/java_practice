@@ -5,6 +5,9 @@ public class Main4 {
     System.out.println(h.hp);
     System.out.println(h.name);
     //このように書けば毎回Mainで初期値をセットしなくてよい
-    
+
+    Hero h2 = new Hero();
+    System.out.println(h2.hp);
+    System.out.println(h2.name);
   }
 }
