@@ -36,7 +36,7 @@ public class Hero {
   //9-10 setterメソッドの例 getterメソッドとは逆に、ある特定のフィールドに指定された値を単に代入するだけのメソッドをsetterメソッドと呼ぶ
   public void setName(String name) {
     //10-13 setterメソッドの中で値の妥当性をチェックする。他のクラスから呼び出すときに値が妥当でないときにエラーメッセージを出力できる。
-    if (name == null) { 
+    if (name == null) {
       throw new IlleagalArgumentException("名前がnullであるため、処理を中断。"); //throwオプション：JVM君に例外処理をスロー（投げる）
     }
     if (name.length() <= 1) {
