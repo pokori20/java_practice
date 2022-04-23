@@ -8,6 +8,12 @@ public class SuperHero {
     System.out.println(this.name + "の攻撃！");
     m.hp -= 5;
     System.out.println("5ポイントのダメージを与えた");
+    //10-8 SuperHeroは、空を飛んでいる状態でattack()すると、Heroでは1回だった攻撃を2回連続で繰り出すことができる。
+    if (this.flying) {
+      System.out.println(this.name + "の攻撃!");
+      m.hp -= 5;
+      System.out.println("5ポイントのダメージを与えた！");
+     }
   }
   //逃げる
   public void run() {
