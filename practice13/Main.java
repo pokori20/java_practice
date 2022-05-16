@@ -11,5 +11,6 @@ public class Main {
     System.out.println(now.getTime()); //実行結果　1652107570955
     Date past = new Date(1316622225935L);//　結果　Wed Sep 21 16:23:45 UTC 2011
     System.out.println(past);
+    //日付型ということは分かるが引数の中身がlong型のため、人間には分からない。
   }
 }
