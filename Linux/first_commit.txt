@@ -1,0 +1,8 @@
+Linux 使い方first_commit
+today learned comand
+
+[cd] means current directory
+[ pwd ] means Print Working Directory
+[ mkdir ] means Make Directory
+[ touch ] means update time stamp or create new file
+[ vi ] means visual
