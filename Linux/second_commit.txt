@@ -1,0 +1,11 @@
+second_commit [today learned]
+
+download Linux standard textbook
+sign in aws skill builder for cloud practitioner
+How to use SQL conditional expressions
+
+vi command normal mode 
+[w] next word
+[e] end of word
+[b] Move to the beginning of the word in front
+[W E B] Symbols such as dots (.) And colons (:) are also considered as a series of words and moved. 
