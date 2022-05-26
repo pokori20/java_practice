@@ -1,0 +1,3 @@
+today learned
+AWS SKILL BUILDER Module2
+EC2 instance types, EC2pricing, Elastic Load Balancing, Lambda, SQS, SNS, EKS and so on
