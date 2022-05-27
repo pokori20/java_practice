@@ -1,0 +1,4 @@
+fourth commit [today learned]
+Measures for the Basic Information Technology Engineer Examination. About the database.
+SQL.text solve the test in Chapter 3 and distinct method
+Linux Standard Textbook Chapter 1
