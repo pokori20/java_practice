@@ -1,0 +1,29 @@
+six_commit [today learned]
+
+SQL chapter4 
+
+Select 列名 From テーブル名
+Order By 列名 並び順(ASC DESC)
+
+Select * From　テーブル名
+Order By 列名(A) DESC, 列名(B) DESC
+
+列番号指定
+Select * From テーブル名
+Order By 2 DESC, 4 DESC 
+
+Offset - Fetch
+先頭から数件だけ取得する
+Select 列名 From テーブル名
+Offset 先頭から除外する行数
+Fetch Next 取得行数 Rows Only
+
+取得行の限定
+Select 列名 From テーブル名
+Order By Desc Limit 3
+
+集合演算子(複数のテーブルから取得する)
+Select 列名A, 列名B From テーブル名C
+Union
+Select 列名A, 列名B From テーブル名D
+Order By 2, 3
