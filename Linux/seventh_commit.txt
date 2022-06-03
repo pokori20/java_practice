@@ -1,0 +1,26 @@
+seventh_commit [today learned]
+
+AWS_sukil_builder chapter3
+
+Linux_command
+
+cp [option]
+-p タイムスタンプが同一のファイルとしてコピー
+-r cpコマンドは基本的にファイルコピーだが、-r optionはディレクトリの中を全コピー
+-i 処理を行うときに確認を行う
+
+mv [Move] 異動元ファイル 異動先ファイル
+-i 処理を行う前に確認
+-f forced 強制的に処理を実行する
+
+rm [remove] ファイル名
+-r cpコマンドは基本的にファイルコピーだが、-r optionはディレクトリの中を全コピー
+-i 処理を行うときに確認を行う
+-f forced 強制的に処理を実行する
+
+pwd [Print Working Directory]
+現在のディレクトリの表示
+
+mkdir [make directory]
+ディレクトリの作成
+-p 指定されたディレクトリの上位のディレクトリも作成
