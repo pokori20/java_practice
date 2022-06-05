@@ -24,3 +24,5 @@ pwd [Print Working Directory]
 mkdir [make directory]
 ディレクトリの作成
 -p 指定されたディレクトリの上位のディレクトリも作成
+
+
