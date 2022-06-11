@@ -1,0 +1,24 @@
+thirteenth_commit [today learned]
+
+SQL
+文字列の一部を抽出
+SUBSTRING(文字列を表す列, 抽出を開始する位置, 抽出する文字の数)
+文字列を連結する関数
+CONCAT(文字列, 文字列[, 文字列] SELECT CONCAT(費目, ':' || メモ) From 家計簿
+指定桁で四捨五入する関数
+Select 出金額, Round(出金額, -2) AS百円単位の出金額 From 家計簿
+出金額  380 => 400
+指定桁で切り捨て TRUNC
+べき乗計算
+POWER(数値を表す列, 何乗するかを指定する数値)
+現在日時の取得
+Current_Date => 現在の日付(YYYY-MM-DD)
+Current_Time => 現在の時刻(HH:MM:SS)
+
+Linux
+cat ファイル名
+ファイル名の内容を表示
+-n 行番号を付加して表示
+
+find パス -name ファイル名
+ファイルの検索
